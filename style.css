@@ -1,0 +1,94 @@
+/* Paleta de cores */
+:root {
+    --primary-color: #F5F7F8;
+    --secondary-color: #F4CE14;
+    --tertiary-color: #495E57;
+    --quaternary-color: #45474B;
+}
+
+/* Reseta as configurações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    background-color: var(--quaternary-color);
+}
+
+.nav-link.active {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+}
+
+.nav-link:hover {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+}
+
+/* Carrossel */
+#slides .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    background-color: var(--secondary-color);
+}
+
+/* Seções */
+section {
+    background-color: var(--primary-color);
+}
+
+section h4 {
+    color: var(--secondary-color);
+}
+
+section p {
+    color: var(--tertiary-color);
+}
+
+/* Botões */
+.btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--quaternary-color);
+}
+
+.text-colored {
+    color: var(--secondary-color);
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+
+.social-links a {
+    text-decoration: none;
+}
